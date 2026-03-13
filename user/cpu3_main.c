@@ -8,10 +8,9 @@ void core3_main(void)
     interrupt_global_enable(0);
 
 
-    cpu_wait_event_ready();                 // 等待所有核心初始化完毕
+    cpu_wait_event_ready();
     while (TRUE)
     {
-
 
     }
 }

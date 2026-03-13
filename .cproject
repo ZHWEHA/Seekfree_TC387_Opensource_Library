@@ -23,6 +23,8 @@
 								<option id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.cpu.789635188" name="(HIDDEN) CPU Id (-C)" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.cpu" useByScannerDiscovery="false" value="tc38x" valueType="string"/>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include.1162671557" name="Include paths (-I)" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Code}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Code/Process}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/libraries}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/libraries/infineon_libraries}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/libraries/infineon_libraries/Configurations}&quot;"/>
@@ -98,7 +100,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/user}&quot;"/>
 								</option>
 								<option id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.fpmodel.1268923756" name="Floating-point model: (--fp-model=)" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.fpmodel" useByScannerDiscovery="false" value="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.fpmodel.fastSingle" valueType="enumerated"/>
-								<option id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.optimization.level.debug.1891704377" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.optimization.level.debug" value="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.optimization.level.2" valueType="enumerated"/>
+								<option id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.optimization.level.debug.1891704377" name="Optimization level: (-Ox)" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.optimization.level.debug" value="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.optimization.level.2" valueType="enumerated"/>
 								<inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.cpp.293067830" name="C++" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.cpp"/>
 								<inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.1639096450" name="C" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input"/>
 							</tool>
@@ -1154,4 +1156,5 @@
 		</configuration>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cproject>

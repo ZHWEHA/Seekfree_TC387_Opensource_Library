@@ -1,0 +1,126 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc9348a --dep-file=Code/Data.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\Code -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\Code\\\\Process -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC38A -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC38A\\\\_Reg -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC38A -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC38A\\\\Tricore -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Asclin -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Asclin\\\\Asc -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Asclin\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Ccu6 -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Ccu6\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Ccu6\\\\Timer -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Irq -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Dma -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Dma\\\\Dma -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Dma\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Evadc -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Evadc\\\\Adc -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Evadc\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Flash -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Flash\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gpt12 -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gpt12\\\\IncrEnc -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gpt12\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm\\\\Atom -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Qspi -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Qspi\\\\SpiMaster -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Qspi\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Stm -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Stm\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_Impl -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_Lib -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_Lib\\\\DataHandling -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_PinMap -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\zf_common -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\zf_components -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\zf_device -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\zf_driver -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O2 -Y0 -Z0 --compact-max-size=200 --misrac-version=2012 -o Code/Data.src ../Code/Data.c"
+	.compiler_name		"ctc"
+	;source	'../Code/Data.c'
+
+	
+$TC162
+	
+	.sdecl	'.data.Data.OperateMode',data,cluster('OperateMode')
+	.sect	'.data.Data.OperateMode'
+	.global	OperateMode
+OperateMode:	.type	object
+	.size	OperateMode,1
+	.space	1
+	.sdecl	'.data.Data.OperateState',data,cluster('OperateState')
+	.sect	'.data.Data.OperateState'
+	.global	OperateState
+OperateState:	.type	object
+	.size	OperateState,1
+	.space	1
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	351
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'../Code/Data.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'F:\\AURIX_Workspace\\Seekfree_TC387_Opensource_Library\\Debug\\',0,12,1
+	.word	.L5
+	.byte	2,1,3
+	.word	170
+	.byte	4
+	.byte	'__codeptr',0,1,1,1
+	.word	172
+	.byte	5
+	.byte	'int',0,4,5,4
+	.byte	'__intptr_t',0,1,1,1
+	.word	195
+	.byte	5
+	.byte	'unsigned int',0,4,7,4
+	.byte	'__uintptr_t',0,1,1,1
+	.word	221
+.L11:
+	.byte	5
+	.byte	'unsigned char',0,1,8,4
+	.byte	'uint8_t',0,2,242,1,41
+	.word	257
+.L10:
+	.byte	6,3,3,9,1,7
+	.byte	'Wire',0,0,7
+	.byte	'NoneWire',0,1,7
+	.byte	'Network',0,2,7
+	.byte	'Auto',0,3,0,4
+	.byte	'OperateModeEn',0,3,9,3
+	.word	291
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,0,0,3,15,0,73,19,0,0,4,22,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,5,36,0,3,8,11,15,62,15,0,0,6,4,1,58,15,59,15,57,15,11,15,0,0,7,40,0,3,8,28,13,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L13-.L12
+.L12:
+	.half	3
+	.word	.L15-.L14
+.L14:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Infineon\\AURIX-Studio-1.10.28\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0,0
+	.byte	'../Code/Data.c',0,0,0,0
+	.byte	'stdint.h',0,1,0,0
+	.byte	'..\\Code\\Data.h',0,0,0,0,0
+.L15:
+.L13:
+	.sdecl	'.debug_info',debug,cluster('OperateMode')
+	.sect	'.debug_info'
+.L6:
+	.word	195
+	.half	3
+	.word	.L7
+	.byte	4,1
+	.byte	'../Code/Data.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'F:\\AURIX_Workspace\\Seekfree_TC387_Opensource_Library\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'OperateMode',0,1,3,22
+	.word	.L10
+	.byte	1,5,3
+	.word	OperateMode
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('OperateMode')
+	.sect	'.debug_abbrev'
+.L7:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('OperateState')
+	.sect	'.debug_info'
+.L8:
+	.word	196
+	.half	3
+	.word	.L9
+	.byte	4,1
+	.byte	'../Code/Data.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'F:\\AURIX_Workspace\\Seekfree_TC387_Opensource_Library\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'OperateState',0,1,4,16
+	.word	.L11
+	.byte	1,5,3
+	.word	OperateState
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('OperateState')
+	.sect	'.debug_abbrev'
+.L9:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	; Module end
