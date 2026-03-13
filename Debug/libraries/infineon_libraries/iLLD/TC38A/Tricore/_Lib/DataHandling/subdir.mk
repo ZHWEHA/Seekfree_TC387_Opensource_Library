@@ -26,15 +26,15 @@ OBJS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 "libraries/infineon_libraries/iLLD/TC38A/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.src":"../libraries/infineon_libraries/iLLD/TC38A/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.c" "libraries/infineon_libraries/iLLD/TC38A/Tricore/_Lib/DataHandling/subdir.mk"
-	cctc -cs --dep-file="$*.d" --misrac-version=2012 "-fF:/AURIX_Workspace/Seekfree_TC387_Opensource_Library/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O2 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "$@" "$<"
+	cctc -cs --dep-file="$*.d" --misrac-version=2012 "-fD:/git_code/test/TEST/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O2 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "$@" "$<"
 "libraries/infineon_libraries/iLLD/TC38A/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.o":"libraries/infineon_libraries/iLLD/TC38A/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.src" "libraries/infineon_libraries/iLLD/TC38A/Tricore/_Lib/DataHandling/subdir.mk"
 	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
 "libraries/infineon_libraries/iLLD/TC38A/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.src":"../libraries/infineon_libraries/iLLD/TC38A/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.c" "libraries/infineon_libraries/iLLD/TC38A/Tricore/_Lib/DataHandling/subdir.mk"
-	cctc -cs --dep-file="$*.d" --misrac-version=2012 "-fF:/AURIX_Workspace/Seekfree_TC387_Opensource_Library/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O2 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "$@" "$<"
+	cctc -cs --dep-file="$*.d" --misrac-version=2012 "-fD:/git_code/test/TEST/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O2 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "$@" "$<"
 "libraries/infineon_libraries/iLLD/TC38A/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.o":"libraries/infineon_libraries/iLLD/TC38A/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.src" "libraries/infineon_libraries/iLLD/TC38A/Tricore/_Lib/DataHandling/subdir.mk"
 	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
 "libraries/infineon_libraries/iLLD/TC38A/Tricore/_Lib/DataHandling/Ifx_Fifo.src":"../libraries/infineon_libraries/iLLD/TC38A/Tricore/_Lib/DataHandling/Ifx_Fifo.c" "libraries/infineon_libraries/iLLD/TC38A/Tricore/_Lib/DataHandling/subdir.mk"
-	cctc -cs --dep-file="$*.d" --misrac-version=2012 "-fF:/AURIX_Workspace/Seekfree_TC387_Opensource_Library/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O2 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "$@" "$<"
+	cctc -cs --dep-file="$*.d" --misrac-version=2012 "-fD:/git_code/test/TEST/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O2 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "$@" "$<"
 "libraries/infineon_libraries/iLLD/TC38A/Tricore/_Lib/DataHandling/Ifx_Fifo.o":"libraries/infineon_libraries/iLLD/TC38A/Tricore/_Lib/DataHandling/Ifx_Fifo.src" "libraries/infineon_libraries/iLLD/TC38A/Tricore/_Lib/DataHandling/subdir.mk"
 	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
 

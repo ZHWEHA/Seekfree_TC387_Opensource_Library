@@ -22,11 +22,11 @@ OBJS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 "libraries/infineon_libraries/Configurations/Ifx_Cfg_Ssw.src":"../libraries/infineon_libraries/Configurations/Ifx_Cfg_Ssw.c" "libraries/infineon_libraries/Configurations/subdir.mk"
-	cctc -cs --dep-file="$*.d" --misrac-version=2012 "-fF:/AURIX_Workspace/Seekfree_TC387_Opensource_Library/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O2 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "$@" "$<"
+	cctc -cs --dep-file="$*.d" --misrac-version=2012 "-fD:/git_code/test/TEST/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O2 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "$@" "$<"
 "libraries/infineon_libraries/Configurations/Ifx_Cfg_Ssw.o":"libraries/infineon_libraries/Configurations/Ifx_Cfg_Ssw.src" "libraries/infineon_libraries/Configurations/subdir.mk"
 	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
 "libraries/infineon_libraries/Configurations/Ifx_Cfg_SswBmhd.src":"../libraries/infineon_libraries/Configurations/Ifx_Cfg_SswBmhd.c" "libraries/infineon_libraries/Configurations/subdir.mk"
-	cctc -cs --dep-file="$*.d" --misrac-version=2012 "-fF:/AURIX_Workspace/Seekfree_TC387_Opensource_Library/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O2 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "$@" "$<"
+	cctc -cs --dep-file="$*.d" --misrac-version=2012 "-fD:/git_code/test/TEST/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O2 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "$@" "$<"
 "libraries/infineon_libraries/Configurations/Ifx_Cfg_SswBmhd.o":"libraries/infineon_libraries/Configurations/Ifx_Cfg_SswBmhd.src" "libraries/infineon_libraries/Configurations/subdir.mk"
 	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
 

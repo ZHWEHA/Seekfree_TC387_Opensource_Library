@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc45688a --dep-file=libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\Code -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\Code\\\\Process -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC38A -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC38A\\\\_Reg -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC38A -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC38A\\\\Tricore -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Asclin -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Asclin\\\\Asc -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Asclin\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Ccu6 -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Ccu6\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Ccu6\\\\Timer -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Irq -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Dma -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Dma\\\\Dma -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Dma\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Evadc -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Evadc\\\\Adc -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Evadc\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Flash -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Flash\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gpt12 -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gpt12\\\\IncrEnc -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gpt12\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm\\\\Atom -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Qspi -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Qspi\\\\SpiMaster -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Qspi\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Stm -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Stm\\\\Std -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_Impl -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_Lib -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_Lib\\\\DataHandling -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_PinMap -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\zf_common -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\zf_components -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\zf_device -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\zf_driver -IF:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O2 -Y0 -Z0 --compact-max-size=200 --misrac-version=2012 -o libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.src ../libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c"
+	.compiler_invocation	"ctc -f cc48704a --dep-file=libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -ID:\\\\git_code\\\\test\\\\TEST -ID:\\\\git_code\\\\test\\\\TEST\\\\Code -ID:\\\\git_code\\\\test\\\\TEST\\\\Code\\\\Diff_steering -ID:\\\\git_code\\\\test\\\\TEST\\\\Code\\\\Process -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC38A -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC38A\\\\_Reg -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC38A -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC38A\\\\Tricore -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Asclin -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Ccu6 -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Dma -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Dma\\\\Std -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Evadc -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Evadc\\\\Adc -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Evadc\\\\Std -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Flash -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Flash\\\\Std -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gpt12 -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms\\\\Std -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port\\\\Std -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Qspi -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu\\\\Std -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src\\\\Std -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Stm -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Stm\\\\Std -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_Impl -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_Lib -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_PinMap -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\zf_common -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\zf_components -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\zf_device -ID:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\zf_driver -ID:\\\\git_code\\\\test\\\\TEST\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O2 -Y0 -Z0 --compact-max-size=200 --misrac-version=2012 -o libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.src ../libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c"
 	.compiler_name		"ctc"
 	;source	'../libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c'
 
@@ -424,7 +424,7 @@ __Ifx_LutAtan2F32_float32_function_end:
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
 .L53:
-	.word	1274
+	.word	1243
 	.half	3
 	.word	.L54
 	.byte	4
@@ -432,41 +432,41 @@ __Ifx_LutAtan2F32_float32_function_end:
 	.byte	1
 	.byte	'../libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'F:\\AURIX_Workspace\\Seekfree_TC387_Opensource_Library\\Debug\\',0,12,1
+	.byte	'D:\\git_code\\test\\TEST\\Debug\\',0,12,1
 	.word	.L55
 	.byte	2,1,1,3
-	.word	235
+	.word	204
 	.byte	4
 	.byte	'Ifx__jump_and_link',0,3,1,61,17,1,1,5
 	.byte	'fun',0,1,61,43
-	.word	238
+	.word	207
 	.byte	6,0,7
 	.byte	'__fract',0,4,128,1
 .L109:
 	.byte	7
 	.byte	'float',0,4,4,8
 	.byte	'Ifx__float_to_fract',0,3,1,152,2,18
-	.word	283
+	.word	252
 	.byte	1,1,5
 	.byte	'a',0,1,152,2,44
-	.word	295
+	.word	264
 	.byte	6,0,7
 	.byte	'unsigned long long int',0,8,7,9
 	.byte	'void',0,3
-	.word	375
+	.word	344
 	.byte	8
 	.byte	'__ld64',0,3,2,135,1,19
-	.word	349
+	.word	318
 	.byte	1,1,5
 	.byte	'addr',0,2,135,1,32
-	.word	381
+	.word	350
 	.byte	6,0,4
 	.byte	'__st64',0,3,2,143,1,17,1,1,5
 	.byte	'addr',0,2,143,1,30
-	.word	381
+	.word	350
 	.byte	5
 	.byte	'value',0,2,143,1,43
-	.word	349
+	.word	318
 	.byte	6,0
 .L107:
 	.byte	7
@@ -474,137 +474,137 @@ __Ifx_LutAtan2F32_float32_function_end:
 .L113:
 	.byte	8
 	.byte	'Ifx_LutAtan2F32_fxpAnglePrivate',0,3,3,66,29
-	.word	467
+	.word	436
 	.byte	1,1
 .L116:
 	.byte	5
 	.byte	'valf',0,3,66,69
-	.word	295
+	.word	264
 .L118:
 	.byte	6,0,8
 	.byte	'Ifx_LutAtan2F32_float32Private',0,3,3,81,20
-	.word	295
+	.word	264
 	.byte	1,1,5
 	.byte	'val',0,3,81,59
-	.word	295
+	.word	264
 	.byte	6,0,10
-	.word	243
+	.word	212
 	.byte	11
-	.word	269
+	.word	238
 	.byte	6,0,10
-	.word	304
+	.word	273
 	.byte	11
-	.word	336
+	.word	305
 	.byte	6,0,10
-	.word	386
+	.word	355
+	.byte	11
+	.word	374
+	.byte	6,0,10
+	.word	390
 	.byte	11
 	.word	405
-	.byte	6,0,10
-	.word	421
 	.byte	11
-	.word	436
-	.byte	11
-	.word	450
+	.word	419
 	.byte	6,0
 .L124:
 	.byte	7
 	.byte	'unsigned long int',0,4,7,10
-	.word	479
+	.word	448
 	.byte	11
-	.word	522
+	.word	491
 	.byte	6,0,10
-	.word	537
+	.word	506
 	.byte	11
-	.word	579
+	.word	548
 	.byte	6,0,7
 	.byte	'short int',0,2,5,12
 	.byte	'__wchar_t',0,3,1,1
-	.word	691
+	.word	660
 	.byte	7
 	.byte	'unsigned int',0,4,7,12
 	.byte	'__size_t',0,3,1,1
-	.word	722
+	.word	691
 	.byte	7
 	.byte	'int',0,4,5,12
 	.byte	'__ptrdiff_t',0,3,1,1
-	.word	755
+	.word	724
 	.byte	13,1,3
-	.word	782
+	.word	751
 	.byte	12
 	.byte	'__codeptr',0,3,1,1
-	.word	784
+	.word	753
 	.byte	12
 	.byte	'__intptr_t',0,3,1,1
-	.word	755
+	.word	724
 	.byte	12
 	.byte	'__uintptr_t',0,3,1,1
-	.word	722
+	.word	691
 	.byte	7
 	.byte	'unsigned short int',0,2,7,12
 	.byte	'_iob_flag_t',0,4,82,25
-	.word	846
+	.word	815
 	.byte	7
 	.byte	'unsigned char',0,1,8,12
 	.byte	'uint8',0,5,105,29
-	.word	888
+	.word	857
 	.byte	12
 	.byte	'uint16',0,5,109,29
-	.word	846
+	.word	815
 	.byte	12
 	.byte	'uint32',0,5,113,29
-	.word	646
+	.word	615
 	.byte	12
 	.byte	'uint64',0,5,118,29
-	.word	349
+	.word	318
 	.byte	12
 	.byte	'sint16',0,5,126,29
-	.word	691
+	.word	660
 	.byte	12
 	.byte	'sint32',0,5,131,1,29
-	.word	467
+	.word	436
 	.byte	7
 	.byte	'long long int',0,8,5,12
 	.byte	'sint64',0,5,138,1,29
-	.word	995
+	.word	964
 	.byte	12
 	.byte	'float32',0,5,167,1,29
-	.word	295
+	.word	264
 	.byte	7
 	.byte	'char',0,1,6,12
 	.byte	'int8',0,6,54,29
-	.word	1045
+	.word	1014
 	.byte	12
 	.byte	'int16',0,6,55,29
-	.word	691
+	.word	660
 	.byte	12
 	.byte	'int32',0,6,56,29
-	.word	755
+	.word	724
 	.byte	12
 	.byte	'int64',0,6,57,29
-	.word	995
+	.word	964
 	.byte	12
 	.byte	'pvoid',0,7,57,28
-	.word	381
+	.word	350
 	.byte	12
 	.byte	'Ifx_TickTime',0,7,79,28
-	.word	995
+	.word	964
 	.byte	12
 	.byte	'Ifx_Lut_FxpAngle',0,8,84,16
-	.word	467
+	.word	436
 	.byte	14,132,32
-	.word	467
+	.word	436
 	.byte	15,128,8,0,16
-	.word	1168
+	.word	1137
 	.byte	17
 	.byte	'Ifx_g_LutAtan2F32_FxpAngle_table',0,9,60,43
-	.word	1179
+	.word	1148
 	.byte	1,1,14,132,32
-	.word	295
+	.word	264
 	.byte	15,128,8,0,16
-	.word	1227
+	.word	1196
 	.byte	17
 	.byte	'Ifx_g_LutAtan2F32_table',0,9,61,43
-	.word	1238
+	.word	1207
 	.byte	1,1,0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
@@ -623,18 +623,18 @@ __Ifx_LutAtan2F32_float32_function_end:
 	.word	.L165-.L164
 .L164:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
-	.byte	'C:\\Infineon\\AURIX-Studio-1.10.28\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
-	.byte	'F:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Std',0
-	.byte	'F:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\zf_common',0,0
-	.byte	'F:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsTasking.h',0
+	.byte	'D:\\YFL\\AURIX-Studio-1.10.28\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
+	.byte	'D:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	'D:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\zf_common',0,0
+	.byte	'D:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsTasking.h',0
 	.byte	0,0,0
-	.byte	'F:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\Cpu\\Std\\IfxCpu_Intrinsics.h',0
+	.byte	'D:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\Cpu\\Std\\IfxCpu_Intrinsics.h',0
 	.byte	0,0,0
 	.byte	'../libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0,0,0,0
 	.byte	'stdio.h',0,1,0,0
 	.byte	'PLATFORM_TYPES.H',0,2,0,0
 	.byte	'zf_common_typedef.h',0,3,0,0
-	.byte	'F:\\\\AURIX_Workspace\\\\Seekfree_TC387_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	'D:\\\\git_code\\\\test\\\\TEST\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC38A\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
 	.byte	0,0,0
 	.byte	'..\\libraries\\infineon_libraries\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_Lut.h',0,0,0,0
 	.byte	'..\\libraries\\infineon_libraries\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_LutAtan2F32.h',0,0,0,0,0
@@ -643,13 +643,13 @@ __Ifx_LutAtan2F32_float32_function_end:
 	.sdecl	'.debug_info',debug,cluster('Ifx_LutAtan2F32_init')
 	.sect	'.debug_info'
 .L56:
-	.word	291
+	.word	260
 	.half	3
 	.word	.L57
 	.byte	4,1
 	.byte	'../libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'F:\\AURIX_Workspace\\Seekfree_TC387_Opensource_Library\\Debug\\',0,12,1
+	.byte	'D:\\git_code\\test\\TEST\\Debug\\',0,12,1
 	.word	.L59,.L58
 	.byte	2
 	.word	.L52
@@ -688,13 +688,13 @@ __Ifx_LutAtan2F32_float32_function_end:
 	.sdecl	'.debug_info',debug,cluster('Ifx_LutAtan2F32_fxpAngle')
 	.sect	'.debug_info'
 .L61:
-	.word	831
+	.word	800
 	.half	3
 	.word	.L62
 	.byte	4,1
 	.byte	'../libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'F:\\AURIX_Workspace\\Seekfree_TC387_Opensource_Library\\Debug\\',0,12,1
+	.byte	'D:\\git_code\\test\\TEST\\Debug\\',0,12,1
 	.word	.L64,.L63
 	.byte	2
 	.word	.L52
@@ -942,13 +942,13 @@ __Ifx_LutAtan2F32_float32_function_end:
 	.sdecl	'.debug_info',debug,cluster('Ifx_LutAtan2F32_float32')
 	.sect	'.debug_info'
 .L66:
-	.word	345
+	.word	314
 	.half	3
 	.word	.L67
 	.byte	4,1
 	.byte	'../libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'F:\\AURIX_Workspace\\Seekfree_TC387_Opensource_Library\\Debug\\',0,12,1
+	.byte	'D:\\git_code\\test\\TEST\\Debug\\',0,12,1
 	.word	.L69,.L68
 	.byte	2
 	.word	.L52
@@ -1097,13 +1097,13 @@ __Ifx_LutAtan2F32_float32_function_end:
 	.sdecl	'.debug_info',debug,cluster('.cocofun_1')
 	.sect	'.debug_info'
 .L71:
-	.word	269
+	.word	238
 	.half	3
 	.word	.L72
 	.byte	4,1
 	.byte	'../libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'F:\\AURIX_Workspace\\Seekfree_TC387_Opensource_Library\\Debug\\',0,12,1
+	.byte	'D:\\git_code\\test\\TEST\\Debug\\',0,12,1
 	.word	.L74,.L73
 	.byte	2
 	.word	.L52
@@ -1166,13 +1166,13 @@ __Ifx_LutAtan2F32_float32_function_end:
 	.sdecl	'.debug_info',debug,cluster('.cocofun_2')
 	.sect	'.debug_info'
 .L76:
-	.word	269
+	.word	238
 	.half	3
 	.word	.L77
 	.byte	4,1
 	.byte	'../libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'F:\\AURIX_Workspace\\Seekfree_TC387_Opensource_Library\\Debug\\',0,12,1
+	.byte	'D:\\git_code\\test\\TEST\\Debug\\',0,12,1
 	.word	.L79,.L78
 	.byte	2
 	.word	.L52
@@ -1217,13 +1217,13 @@ __Ifx_LutAtan2F32_float32_function_end:
 	.sdecl	'.debug_info',debug,cluster('.cocofun_3')
 	.sect	'.debug_info'
 .L81:
-	.word	270
+	.word	239
 	.half	3
 	.word	.L82
 	.byte	4,1
 	.byte	'../libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'F:\\AURIX_Workspace\\Seekfree_TC387_Opensource_Library\\Debug\\',0,12,1
+	.byte	'D:\\git_code\\test\\TEST\\Debug\\',0,12,1
 	.word	.L84,.L83
 	.byte	2
 	.word	.L52
@@ -1280,13 +1280,13 @@ __Ifx_LutAtan2F32_float32_function_end:
 	.sdecl	'.debug_info',debug,cluster('.cocofun_4')
 	.sect	'.debug_info'
 .L86:
-	.word	270
+	.word	239
 	.half	3
 	.word	.L87
 	.byte	4,1
 	.byte	'../libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'F:\\AURIX_Workspace\\Seekfree_TC387_Opensource_Library\\Debug\\',0,12,1
+	.byte	'D:\\git_code\\test\\TEST\\Debug\\',0,12,1
 	.word	.L89,.L88
 	.byte	2
 	.word	.L52
@@ -1327,13 +1327,13 @@ __Ifx_LutAtan2F32_float32_function_end:
 	.sdecl	'.debug_info',debug,cluster('.cocofun_5')
 	.sect	'.debug_info'
 .L91:
-	.word	270
+	.word	239
 	.half	3
 	.word	.L92
 	.byte	4,1
 	.byte	'../libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'F:\\AURIX_Workspace\\Seekfree_TC387_Opensource_Library\\Debug\\',0,12,1
+	.byte	'D:\\git_code\\test\\TEST\\Debug\\',0,12,1
 	.word	.L94,.L93
 	.byte	2
 	.word	.L52
@@ -1384,13 +1384,13 @@ __Ifx_LutAtan2F32_float32_function_end:
 	.sdecl	'.debug_info',debug,cluster('.cocofun_6')
 	.sect	'.debug_info'
 .L96:
-	.word	269
+	.word	238
 	.half	3
 	.word	.L97
 	.byte	4,1
 	.byte	'../libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'F:\\AURIX_Workspace\\Seekfree_TC387_Opensource_Library\\Debug\\',0,12,1
+	.byte	'D:\\git_code\\test\\TEST\\Debug\\',0,12,1
 	.word	.L99,.L98
 	.byte	2
 	.word	.L52
@@ -1463,13 +1463,13 @@ __Ifx_LutAtan2F32_float32_function_end:
 	.sdecl	'.debug_info',debug,cluster('.cocofun_7')
 	.sect	'.debug_info'
 .L101:
-	.word	269
+	.word	238
 	.half	3
 	.word	.L102
 	.byte	4,1
 	.byte	'../libraries/infineon_libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'F:\\AURIX_Workspace\\Seekfree_TC387_Opensource_Library\\Debug\\',0,12,1
+	.byte	'D:\\git_code\\test\\TEST\\Debug\\',0,12,1
 	.word	.L104,.L103
 	.byte	2
 	.word	.L52
@@ -1696,14 +1696,14 @@ __Ifx_LutAtan2F32_float32_function_end:
 	.word	0,0
 .L117:
 	.word	0,0
-.L136:
+.L145:
 	.word	-1,.L35,.L151-.L35,.L105-.L35
 	.half	1
 	.byte	95
-	.word	.L155-.L35,.L100-.L35
+	.word	.L156-.L35,.L100-.L35
 	.half	1
 	.byte	95
-	.word	.L134-.L35,.L11-.L35
+	.word	.L157-.L35,.L80-.L35
 	.half	1
 	.byte	95
 	.word	0,0
@@ -1712,7 +1712,7 @@ __Ifx_LutAtan2F32_float32_function_end:
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
-.L132:
+.L125:
 	.word	-1,.L35,.L151-.L35,.L105-.L35
 	.half	1
 	.byte	95
@@ -1731,6 +1731,25 @@ __Ifx_LutAtan2F32_float32_function_end:
 	.half	1
 	.byte	95
 	.word	0,0
+.L132:
+	.word	-1,.L35,.L151-.L35,.L105-.L35
+	.half	1
+	.byte	95
+	.word	.L152-.L35,.L75-.L35
+	.half	1
+	.byte	95
+	.word	0,0
+.L136:
+	.word	-1,.L35,.L151-.L35,.L105-.L35
+	.half	1
+	.byte	95
+	.word	.L155-.L35,.L100-.L35
+	.half	1
+	.byte	95
+	.word	.L134-.L35,.L11-.L35
+	.half	1
+	.byte	95
+	.word	0,0
 .L144:
 	.word	-1,.L35,.L151-.L35,.L105-.L35
 	.half	1
@@ -1742,26 +1761,7 @@ __Ifx_LutAtan2F32_float32_function_end:
 	.half	1
 	.byte	95
 	.word	0,0
-.L145:
-	.word	-1,.L35,.L151-.L35,.L105-.L35
-	.half	1
-	.byte	95
-	.word	.L156-.L35,.L100-.L35
-	.half	1
-	.byte	95
-	.word	.L157-.L35,.L80-.L35
-	.half	1
-	.byte	95
-	.word	0,0
 .L130:
-	.word	-1,.L35,.L151-.L35,.L105-.L35
-	.half	1
-	.byte	95
-	.word	.L152-.L35,.L75-.L35
-	.half	1
-	.byte	95
-	.word	0,0
-.L125:
 	.word	-1,.L35,.L151-.L35,.L105-.L35
 	.half	1
 	.byte	95
