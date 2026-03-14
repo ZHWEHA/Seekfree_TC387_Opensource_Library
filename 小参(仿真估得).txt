@@ -1,0 +1,29 @@
+#define DEFAULT_PID_KP      1.5f      // 内环比例系数
+#define DEFAULT_PID_KI      0.08f     // 内环积分系数
+#define DEFAULT_PID_KD      0.03f     // 内环微分系数
+#define PID_OUTPUT_LIMIT    100.0f    // 内环输出限幅
+#define INTEGRAL_LIMIT      40.0f     // 内环积分限幅
+
+
+外环PID
+PID_Init(&yaw_angle_pid,
+         2.5f,          // Kp_outer
+         0.0f,          // Ki_outer
+         0.0f,          // Kd_outer
+         CONTROL_DT,
+         -200.0f,       // 输出限幅最小值	期望角速度 -200°/s
+         200.0f,        // 输出限幅最大值	期望角速度 +200°/s
+         50.0f,         // 积分限幅
+         0.0f);         // 微分滤波截止频率
+
+
+内环PID
+PID_Init(&yaw_rate_pid,
+         DEFAULT_PID_KP,
+         DEFAULT_PID_KI,
+         DEFAULT_PID_KD,
+         CONTROL_DT,
+         -PID_OUTPUT_LIMIT,
+         PID_OUTPUT_LIMIT,
+         INTEGRAL_LIMIT,
+         8.0f);          // 微分滤波截止频率 8 Hz
