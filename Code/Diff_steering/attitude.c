@@ -159,6 +159,7 @@ void Attitude_Update(void){
     imu963ra_get_mag();
 
     //转换为物理值
+    //若要屏蔽磁力计只需将 mx, my, mz 全部设为 0，同时将twoki设置为0
     float ax = imu963ra_acc_transition(imu963ra_acc_x);
     float ay = imu963ra_acc_transition(imu963ra_acc_y);
     float az = imu963ra_acc_transition(imu963ra_acc_z);
