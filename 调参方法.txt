@@ -1,0 +1,40 @@
+调内环（角速度PID)	在control.h中修改
+#define YAW_RATE_KP         1.2f
+#define YAW_RATE_KI         0.1f
+#define YAW_RATE_KD         0.05f
+
+调外环（角速度PID）	在 control.c中修改
+PID_Init(&yaw_angle_pid,
+         2.0f,   // Kp <- 在这里改
+         0.0f,   // Ki
+         0.0f,   // Kd
+
+调整顺序
+1.先调内环
+	暂时固定外环 -> Kp = 0
+	只调整 -> YAW_RATE_KP
+			 YAW_RATE_KI
+			 YAW_RATE_KD
+
+2.再调外环
+	一般不用调整Ki，Kd。只调Kp -> Kp = 1.0 ~ 3.0
+
+
+
+Kp（先调）
+	太小 -> 转不动 x
+	太大 -> 抖动 x
+	调到：快速但不抖
+
+Ki（加一点点）
+	除去转不准
+
+Kd（最后加）
+	抑制抖动
+	太大会响应变慢
+
+
+调法
+转太慢    ↑Kp
+来回摆    ↓Kp
+

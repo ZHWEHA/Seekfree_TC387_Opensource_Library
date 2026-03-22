@@ -85,19 +85,22 @@ int core0_main(void)
     return 0;
 }
 
-// PIT中断服务函数 周期：5ms
-void CCU60_CH0_IRQHandler(void)
-{
+//PIT中断服务函数 周期：5ms
+void CCU60_CH0_IRQHandler(void){
     pit_clear_flag(CCU60_CH0);
 
-    //使用固定 dt = 0.005f -> 与定时器周期一致
+    //姿态更新
     Attitude_Update(0.005f);
 
-    //获取实际反馈值
+    //获取反馈
     float actual_yaw_rate = Attitude_GetYawRate();
-    float actual_yaw = Attitude_GetYaw();       //获取当前航向角
+    float actual_yaw = Attitude_GetYaw();
 
-    // 执行控制更新 -> 传入角速度和角度
-    Control_Update(actual_yaw_rate, actual_yaw);
+    //方向盘控制
+    float steering_angle = Get_Steering_Encoder();   //你需要提供
+
+    float steering_input = steering_angle / 30.0f;   //根据实际调整
+
+    Control_Update_Manual(actual_yaw_rate, steering_input);
 }
 #pragma section all restore
