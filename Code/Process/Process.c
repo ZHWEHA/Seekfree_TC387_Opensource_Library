@@ -1,12 +1,12 @@
 #include"Process.h"
+#include"Data.h"
 
-void Start()
+void Proc_SE()
 {
     //IPS200 初始化
-    D_IPS200_Start();
+    Proc_D_IPS200_Start();
+
+    //Function初始化
+    Proc_Function_SE();
 }
 
-void End()
-{
-
-}

@@ -1,8 +1,15 @@
+#ifndef _CODE_PROCESS_MOTOR_INCLUDE_
+#define _CODE_PROCESS_MOTOR_INCLUDE_
 
-void Motor_Start();
+#include<stdint.h>
 
-void Write_Direction(double PPercent);
+extern void Proc_Motor_SE();
 
-void Write_LR_Speed(double PPercent);
-void Write_L_Speed(double PPercent);
-void Write_R_Speed(double PPercent);
+//反向：< 0；正向：> 0；
+extern void Proc_Write_Direction_Speed(double PPercent);
+
+extern void Proc_Write_LR_Speed(double PPercent);
+extern void Proc_Write_L_Speed(double PPercent);
+extern void Proc_Write_R_Speed(double PPercent);
+
+#endif

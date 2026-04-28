@@ -1,3 +1,6 @@
+#ifndef _CODE_PROCESS_DISPLAY_INCLUDE_
+#define _CODE_PROCESS_DISPLAY_INCLUDE_
+
 #include"zf_device_ips200.h"
 
 typedef enum
@@ -33,4 +36,6 @@ typedef union
         uint16 Data;
 } Color_RGB565Un;
 
-void D_IPS200_Start();
+void Proc_D_IPS200_Start();
+
+#endif

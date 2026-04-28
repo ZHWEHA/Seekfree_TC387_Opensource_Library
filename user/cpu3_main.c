@@ -1,3 +1,4 @@
+//独立异步核心
 #include "zf_common_headfile.h"
 #pragma section all "cpu3_dsram"
 // 将本语句与#pragma section all restore语句之间的全局变量都放在CPU1的RAM中

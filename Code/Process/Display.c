@@ -6,7 +6,7 @@
 //#define IPS200_TYPE (IPS200_TYPE_PARALLEL8)     //并行
 #define IPS200_TYPE (IPS200_TYPE_SPI)           //IPS
 
-void D_IPS200_Start()
+void Proc_D_IPS200_Start()
 {
     //竖屏模式
     ips200_set_dir(IPS200_PORTAIT);

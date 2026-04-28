@@ -1,9 +1,17 @@
 #include"Motor.h"
-
-#include<stdint.h>
 #include<math.h>
 
 #include "zf_common_headfile.h"
+
+double Curve_Mult(double x)
+{
+    double M = 1.2;
+    double N = 2;
+
+    double t = x - 1.0;
+    double base = 1.0 - pow(t * t, M);
+    return pow(base, N);
+}
 
 #define PIN_Dire_GPIO       (P21_2)
 #define PIN_Dire_PWM        (ATOM0_CH1_P21_3)
@@ -15,7 +23,7 @@
 #define PIN_R_GPIO          (P02_4)
 #define PIN_R_PWM           (ATOM0_CH7_P02_7)
 
-void Motor_Start()
+extern void Proc_Motor_SE()
 {
     const uint32_t Freq = 17000;
     //方向
@@ -33,8 +41,8 @@ void Motor_Start()
 
 }
 
-//方向：
-void Write_Direction(double PPercent)
+//方向
+extern void Proc_Write_Direction_Speed(double PPercent)
 {
     //控制输出正负电压
     if (PPercent < 0)
@@ -46,7 +54,7 @@ void Write_Direction(double PPercent)
 }
 
 //速度
-void Write_LR_Speed(double PPercent)
+extern void Proc_Write_LR_Speed(double PPercent)
 {
     //控制输出正负电压
     if (PPercent < 0)
@@ -63,7 +71,7 @@ void Write_LR_Speed(double PPercent)
     pwm_set_duty(PIN_L_PWM, PPercent * PWM_DUTY_MAX);
     pwm_set_duty(PIN_R_PWM, PPercent * PWM_DUTY_MAX);
 }
-void Write_L_Speed(double PPercent)
+extern void Proc_Write_L_Speed(double PPercent)
 {
     //控制输出正负电压
     if (PPercent < 0)
@@ -73,7 +81,7 @@ void Write_L_Speed(double PPercent)
     //写入电压
     pwm_set_duty(PIN_L_PWM, fabs(PPercent) * PWM_DUTY_MAX);
 }
-void Write_R_Speed(double PPercent)
+extern void Proc_Write_R_Speed(double PPercent)
 {
     //控制输出正负电压
     if (PPercent < 0)
